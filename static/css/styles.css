@@ -1,0 +1,40 @@
+ #mySidenav a {  /* id selector */
+  position: absolute;
+  left: -80px;
+  transition: 0.3s;
+  padding: 15px;
+  width: 100px;
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+  border-radius: 0 5px 5px 0;
+}
+
+#mySidenav a:hover {   /* id selector */
+  left: 0;
+  position:fixed;
+}
+
+#solid {            /* id selector */
+  top: 70px;
+  background-color:#34495E ;
+}
+
+#plasma {    /* id selector */
+  top: 130px;
+  background-color: red ;
+}
+
+#gas {         /* id selector */
+  top: 190px;
+  background-color: gray ;
+}
+
+#liquid {         /* id selector */
+  top:250px;
+  background-color:#3366ff ;
+}
+#home {        /* id selector */
+  top:310px;
+  background-color: green;
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Plasma</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<header>
+    <img src="{{ url_for('static', filename='images/plasma.png') }}" width="100%" height="300px">
+</header>
+<body>
+<div id="mySidenav" class="sidenav">
+    <a href="{{ url_for('page') }}" id="home">Home</a>
+    <a href="{{ url_for('solid') }}" id="solid">Solid</a>
+    <a href="{{ url_for('plasma') }}" id="plasma">Plasma</a>
+    <a href="{{ url_for('gas') }}" id="gas">Gas</a>
+    <a href="{{ url_for('liquid') }}" id="liquid">Liquid</a>
+  </div>
+<div id="divA">
+    <center><h2>Liquid</h2></center>
+    <p style="font-size: 20px">
+        &emsp; Both the volume and shape of plasma are illusive. Ionized gases frequently contain plasma, yet plasma differs from a gas in that it has special characteristics. The plasma is electrically conductive because it contains free electrical charges that aren't attached to atoms or ions. A gas can be heated and ionized to create plasma. Stars, lightning, fluorescent lights, and neon signs are a few examples of plasma.
+    </p>
+     <h3>Examples of plasmas are the following:</h3>
+    <li>Lightning</li>
+    <li>Aurora Borealis</li>
+    <li>Welding Arcs</li>
+    <li>Nuclear Explosion</li>
+
+</body>
+</html>

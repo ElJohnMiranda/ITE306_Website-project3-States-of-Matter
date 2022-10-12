@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>State of Matter</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<header>
+    <img src="{{ url_for('static', filename='images/bannerpage.jpg') }}" width="100%" height="300px">
+
+</header>
+<body>
+
+  <div id="mySidenav" class="sidenav">
+    <a href="{{ url_for('page') }}" id="home">Home</a>
+    <a href="{{ url_for('solid') }}" id="solid">Solid</a>
+    <a href="{{ url_for('plasma') }}" id="plasma">Plasma</a>
+    <a href="{{ url_for('gas') }}" id="gas">Gas</a>
+    <a href="{{ url_for('liquid') }}" id="liquid">Liquid</a>
+  </div>
+
+<div id="divA">
+    <center><h2>State of Matter</h2></center>
+
+    <p style="font-size: 20px">
+        &emsp; The three basic states of matter are solid, liquid, and gas.
+        These three common states of matter are listed here. A substance's temperature and applied pressure determine whether it is a solid, liquid, or gas.
+        Water exists as a liquid that can flow from one container to another when it is at room temperature (about 22°C) and the typical atmospheric pressure.
+        However, liquid water turns into solid ice when its temperature is reduced to -0.01°C.
+        Water turns into a gas when the temperature exceeds 100°C while maintaining the same pressure and going in the opposite temperature direction.
+    </p>
+    <p style="font-size: 20px">
+        &emsp; Changing the pressure while keeping the temperature constant might also result in state changes.
+        A phase diagram makes it simpler to understand how temperature, pressure, and the three states of matter relate to one another.
+        Phase diagrams are well-known for thousands of chemicals since they contain so much information.
+In addition to the three just described, there are two more states of matter that we do not see frequently. They are Bose-Einstein condensate and plasma.
+    </p>
+
+    <li>
+        Solid
+    </li>
+    <li> Liquid</li>
+    <li>Gas</li>
+    <li>Plasma</li>
+
+
+
+</div>
+
+
+
+</body>
+</html>
